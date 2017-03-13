@@ -27,18 +27,25 @@
 	</dependencyManagement>
 
 	<dependencies>
-	 
-<!-- Eureka server // Service Discovery -->
-	
+	 	
     	<dependency>
         	<groupId>org.springframework.cloud</groupId>
         	<artifactId>spring-cloud-starter-eureka-server</artifactId>
     	</dependency>
     	
-<!-- Spring Cloud Config Server // Config Server -->
+    	<dependency>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-web</artifactId>
+    	</dependency>
+    	
+    	<dependency>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-actuator</artifactId>
+    	</dependency>
+		
 		<dependency>
-   			<groupId>org.springframework.cloud</groupId>
-   			<artifactId>spring-cloud-config-server</artifactId>
+	    	<groupId>org.springframework.boot</groupId>
+	    	<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
     	
 	</dependencies>
